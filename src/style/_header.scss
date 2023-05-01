@@ -11,14 +11,23 @@ body {
   padding-top: 10px;
 }
 
+.header-menu {
+  width: 100%;
+  background-color: #F8F9FA;
+  position: fixed;
+  top: 0;
+  padding: 10px;
+  z-index: 3;
+  
+}
+
 .header-wrapper {
-  max-width: 1350px;
+  width: 1350px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
-  //position: sticky;
+  background-color: #F8F9FA;
 }
 
 .header-logo__city {
@@ -42,8 +51,6 @@ body {
 .header-search__link {
   color: #F8F9FA;
 }
-
-
 
 .header-search__item {
   width: 35px;
@@ -80,7 +87,6 @@ body {
   align-items: center;
 }
 
-
 .header-contacts {
   display: flex;
   flex-direction: column;
@@ -107,15 +113,15 @@ body {
 
 .menu {
   max-width: 1350px;
-  margin: 30px auto 0;
+  margin: 120px auto 0;
   box-sizing: border-box;
   border-top: 1px solid #0752FF;
-  
+
 }
 
 .menu-list {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .menu-list__link {
