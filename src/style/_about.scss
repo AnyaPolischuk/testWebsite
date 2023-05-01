@@ -1,0 +1,27 @@
+.about {
+  font-family: 'Inter', sans-serif;
+  max-width: 1350px;
+  margin: 0 auto;
+}
+
+.about__title {
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  color: #011645;
+  padding: 50px 0 30px 0;
+}
+
+.about__img {
+  width: 1350px;
+  height: 562px;
+  margin-bottom: 30px;
+}
+
+.about__text {
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+  text-align: justify;
+  padding-top: 12px;
+}

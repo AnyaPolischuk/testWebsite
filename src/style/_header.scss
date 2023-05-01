@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+}
+
+.header {
+  font-family: 'Ubuntu', sans-serif;
+  width: 100%;
+  background-color: #F8F9FA;
+  font-weight: 400;
+  height: 166px;
+  padding-top: 10px;
+}
+
+.header-wrapper {
+  max-width: 1350px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  //position: sticky;
+}
+
+.header-logo__city {
+  width: 207px;
+  height: 27px;
+  background-color: #DEE8FF;
+  color: #041741;
+  font-size: 12px;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 5px;
+}
+
+.header-search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 765px;
+}
+
+.header-search__link {
+  color: #F8F9FA;
+}
+
+
+
+.header-search__item {
+  width: 35px;
+  height: 35px;
+  margin-right: 5px;
+}
+
+.header-search__container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header-search__input {
+  width: 446px;
+  height: 40px;
+  border: 1px solid #4E6BAD;
+  color: #ACABAB;
+  font-size: 14px;
+  box-sizing: border-box;
+  padding-left: 10px;
+}
+
+.header-search__btn {
+  width: 116px;
+  height: 40px;
+  background: #4E6BAD;
+  border-radius: 0px 3px 3px 0px;
+  border: none;
+  color: #ffffff;
+  font-size: 14px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.header-contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 88px;
+  
+}
+
+.header-contacts__email,
+.header-contacts__worktime {
+  color: #4E6BAD;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.header-contacts__telephone {
+  color: #001B5B;
+  font-size: 24px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.menu {
+  max-width: 1350px;
+  margin: 30px auto 0;
+  box-sizing: border-box;
+  border-top: 1px solid #0752FF;
+  
+}
+
+.menu-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-list__link {
+  font-size: 14px;
+  color: #001B5B;
+  text-transform: uppercase;
+  font-weight: 400;
+} 

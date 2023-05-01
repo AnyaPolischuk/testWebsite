@@ -1,0 +1,43 @@
+.benefits {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
+  color: #041741;
+}
+
+.benefits__title {
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  color: #011645;
+  margin-bottom: 60px;
+}
+
+.benefits-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1000px;
+  margin: 0 auto 85px;
+}
+
+.benefits__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+}
+
+.benefits__amount {
+  font-weight: 700;
+  font-size: 36px;
+  color: #FF0000;
+  }
+
+.benefits__text {
+  text-align: center;
+  padding-top: 13px;
+}
+
+
+
